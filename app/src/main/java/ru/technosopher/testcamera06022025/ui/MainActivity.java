@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         if (result) {
             startCamera();
         } else {
-            this.finish(); // FIXME
+            this.finish(); // FIXME - В реальном приложении так лучше не делать!
         }
     });
 
